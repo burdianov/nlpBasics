@@ -1,5 +1,4 @@
 import pandas as pd
-import spacy
 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
@@ -8,6 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report
 
 from utils import read_zipped_data
+from utils import preprocess
 
 df = read_zipped_data("news_dataset.zip", "json")
 
@@ -75,19 +75,6 @@ y_pred = clf.predict(X_test)
 print(classification_report(y_test, y_pred))
 
 # with preprocessing
-
-
-def preprocess(text: str):
-    nlp = spacy.load("en_core_web_sm")
-    doc = nlp(text)
-
-    filtered_tokens = []
-    for token in doc:
-        if token.is_stop or token.is_punct:
-            continue
-        filtered_tokens.append(token.lemma_)
-    return " ".join(filtered_tokens)
-
 
 df_balanced["preprocessed_txt"] = df_balanced.text.apply(preprocess)
 df_balanced.head()
