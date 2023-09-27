@@ -1,0 +1,8 @@
+ipykernel
+numpy
+pandas
+scikit-learn
+spacy
+nltk
+youtube-transcript-api
+-e .
