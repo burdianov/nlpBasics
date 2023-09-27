@@ -4,9 +4,7 @@ https://github.com/codebasics/nlp-tutorials/tree/main
 
 
 next:
-https://www.youtube.com/watch?v=ATK6fm3cYfI&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=19
-
-min.19
+https://www.youtube.com/watch?v=Do8cVbx-HOs&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=19
 
 imbalanced datasets:
 https://www.youtube.com/watch?v=JnlM4yLFNuo&t=64s
