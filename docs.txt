@@ -11,6 +11,12 @@ https://www.youtube.com/watch?v=JnlM4yLFNuo&t=64s
 
 $ python -m spacy download en_core_web_sm
 
+# export the environment
+$ conda env export > environment.yml
+$ conda deactivate
+# create an environment from the exported one
+$ conda env create -f environment.yml
+
 "python.analysis.diagnosticSeverityOverrides": {
     "reportShadowedImports": "none"
   }
