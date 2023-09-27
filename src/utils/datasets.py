@@ -19,7 +19,10 @@ def read_zipped_data(src_filename: str, dest_extention: str) -> pd.DataFrame:
     if dest_extention == "csv":
         df = pd.read_csv(unzipped_filename_full)
     elif dest_extention == "json":
-        df = pd.read_json(unzipped_filename_full)
+        try:
+            df = pd.read_json(unzipped_filename_full, lines=True)
+        except:
+            df = pd.read_json(unzipped_filename_full)
 
     os.remove(unzipped_filename_full)
 
