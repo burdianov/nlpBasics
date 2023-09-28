@@ -6,4 +6,5 @@ scikit-learn
 spacy
 nltk
 youtube-transcript-api
+gensim
 -e .
