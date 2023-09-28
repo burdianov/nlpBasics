@@ -1,15 +1,17 @@
+Playlist:
 https://www.youtube.com/watch?v=R-AG4-qZs1A&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=1
 
 https://github.com/codebasics/nlp-tutorials/tree/main
 
 
 next:
-https://www.youtube.com/watch?v=vyohzuTkty8&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=20
+https://www.youtube.com/watch?v=ibi5hvw6f3g&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=21
 
-word2vec:
-https://www.youtube.com/watch?v=hQwFeIupNP0
 
 $ python -m spacy download en_core_web_sm
+
+For word embeddings
+$ python -m spacy download en_core_web_lg
 
 # export the environment
 $ conda env export > environment.yml
