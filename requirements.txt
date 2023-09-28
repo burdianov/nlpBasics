@@ -7,4 +7,5 @@ spacy
 nltk
 youtube-transcript-api
 gensim
+fasttext
 -e .
