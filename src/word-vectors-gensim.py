@@ -10,3 +10,5 @@ wv.most_similar("good")
 wv.most_similar(positive=["France", "Berlin"], negative=["Paris"])
 
 wv.doesnt_match(["facebook", "cat", "google", "microsoft", "bloomberg"])
+
+glv.most_similar("good")

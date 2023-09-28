@@ -5,7 +5,7 @@ https://github.com/codebasics/nlp-tutorials/tree/main
 
 
 next:
-https://www.youtube.com/watch?v=ibi5hvw6f3g&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=21
+https://www.youtube.com/watch?v=Br-Ozg9D4mc&list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX&index=24
 
 
 $ python -m spacy download en_core_web_sm
